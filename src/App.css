@@ -1,0 +1,573 @@
+.Body-padding {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #F1F1F1;
+    height: 600px;
+    width: 1315px;
+    margin-top: -20px;
+    margin-left: -28px;
+}
+
+.collect h5 {
+    position: absolute;
+    top: 170px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 74px;
+    line-height: 55px;
+    color: #000000;
+}
+
+.collect p {
+    position: absolute;
+    top: 253px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 00;
+    font-size: 27px;
+    line-height: 55px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.collect button {
+    position: absolute;
+    top: 390px;
+    width: 150px;
+}
+
+.collect .btn {
+    color: black;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.collect {
+
+    position: absolute;
+    width: 515px;
+    height: 164px;
+    left: 170px;
+
+}
+
+.img img {
+    margin-left: 607px;
+    width: 360px;
+    margin-top: 75px;
+}
+
+.main .text {
+    position: absolute;
+    width: 648px;
+    height: 52px;
+    right: 807px;
+    top: 1155px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+
+    transform: rotate(-90deg);
+}
+
+.main img:hover {
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
+.main1 {
+    position: absolute;
+    width: 490px;
+    height: 618px;
+    left: 167px;
+    top: 877px;
+}
+
+.main2 {
+    position: absolute;
+    width: 252px;
+    height: 295px;
+    left: 672px;
+    top: 877px;
+}
+
+.main3 {
+    position: absolute;
+    width: 252px;
+    height: 295px;
+    left: 938px;
+    top: 877px;
+}
+
+.main4 {
+    position: absolute;
+    width: 252px;
+    height: 303px;
+    left: 672px;
+    top: 1192px;
+
+}
+
+.main5 {
+    position: absolute;
+    width: 252px;
+    height: 303px;
+    left: 938px;
+    top: 1192px;
+}
+
+button .a {
+    margin-left: 300px;
+}
+
+.logodisplay {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.logodisplay img:hover {
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
+.main {
+    margin-top: 700px;
+}
+
+.zara {
+    position: absolute;
+    width: 1304px;
+    height: 641px;
+    right: 2px;
+    top: 4157px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.zara1 {
+    position: absolute;
+    width: 422px;
+    height: 259px;
+    left: 860px;
+    top: 4159px;
+
+}
+
+.contain {
+    display: flex;
+    position: absolute;
+    /* top:1px; */
+    bottom: 700px;
+    right: 1650px;
+}
+
+.contain h2 {
+    position: absolute;
+    color: #fff;
+    width: 191px;
+    font-size: 80px;
+    height: 81px;
+    left: 1083px;
+    top: 4449px;
+}
+
+.contain p {
+    position: absolute;
+    width: 504px;
+    height: 147px;
+    left: 1083px;
+    top: 4556px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.contain button {
+    position: absolute;
+    width: 135px;
+    font-size: 15px;
+    height: 32px;
+    left: 1083px;
+    top: 4700px;
+}
+
+.seller .link001 {
+    position: absolute;
+    width: 375px;
+    height: 22px;
+    right: 1005px;
+    top: 4170px;
+
+}
+
+.seller p {
+    position: absolute;
+    width: 332px;
+    height: 53px;
+    left: 494px;
+    top: 4845px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+
+    color: #000000;
+
+}
+
+.link01 {
+    position: absolute;
+    width: 93px;
+    height: 22px;
+    left: 300px;
+    top: 783px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+.link02 {
+    position: absolute;
+    width: 51px;
+    height: 22px;
+    left: 433px;
+    top: 783px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #777777;
+}
+
+.link03 {
+    position: absolute;
+    width: 64px;
+    height: 22px;
+    left: 524px;
+    top: 783px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #777777;
+
+}
+
+.link04 {
+    position: absolute;
+    width: 47px;
+    height: 22px;
+    left: 628px;
+    top: 783px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+
+    text-transform: capitalize;
+
+    color: #777777;
+}
+
+.seller .btn1 {
+    position: absolute;
+    width: 90px;
+    font-size: 16px;
+    text-align: center;
+    height: 30px;
+    left: 1242px;
+    top: 778px;
+}
+
+.card01 {
+    position: absolute;
+    width: 252px;
+    height: 477px;
+    left: 130px;
+    top: 5040px;
+
+}
+
+.card02 {
+    position: absolute;
+    width: 252px;
+    height: 477px;
+    left: 400px;
+    top: 5040px;
+}
+
+.card03 {
+    position: absolute;
+    width: 252px;
+    height: 477px;
+    left: 672px;
+    top: 5040px;
+}
+
+.card04 {
+    position: absolute;
+    width: 252px;
+    height: 477px;
+    left: 945px;
+    top: 5040px;
+}
+
+.discount p {
+    position: absolute;
+    width: 1096px;
+    height: 53px;
+    left: 112px;
+    bottom: 380px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 53px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+.discount {
+    position: relative;
+    top: 1400px;
+    background-color: #F1F1F1;
+    width: 1275px;
+    left: -6px;
+    height: 500px;
+}
+
+.discount1 {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 122px;
+    top: 139px;
+}
+
+.discount2 {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 307px;
+    top: 139px;
+
+}
+
+.discount3 {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 490px;
+    top: 139px;
+}
+
+.discount4 {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 670px;
+    top: 139px;
+}
+
+.discount5 {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 850px;
+    top: 139px;
+}
+
+.discount6 {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 1029px;
+    top: 139px;
+}
+
+.discount h6 {
+    position: absolute;
+    width: 1096px;
+    height: 53px;
+    left: 112px;
+    top: 320px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 53px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+.discount .input1 {
+    position: absolute;
+    width: 450px;
+    height: 32px;
+    left: 385px;
+    top: 405px;
+    color: black;
+    background: none;
+    border: none;
+    border-bottom: 3px solid black;
+}
+
+.input2 {
+    position: absolute;
+    width: 60px;
+    height: 32px;
+    left: 877px;
+    top: 405px;
+    background: none;
+    border: none;
+    border-bottom: 3px solid black;
+}
+
+.ft {
+    position: relative;
+    background: #F1F1F1;
+    top: 1400px;
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+}
+
+.ft .ftmenu h3 {
+    color: aliceblue;
+}
+
+.ft .ftmenu p {
+    color: black;
+}
+
+.feature-products .section {
+    display: none;
+}
+
+.ftmenu {
+    width: 45%;
+    padding: 10px;
+}
+
+.ft .ftmenu ul li {
+    text-align: left;
+    padding: 10px;
+    list-style: none;
+    color: rgb(12, 7, 1);
+
+}
+
+.ft .ftmenu ul li a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.ft .ftmenu ul li a:hover {
+    color: #222;
+}
+
+.footermain {
+    position: relative;
+    background: #000000;
+}
+
+.footermain p {
+    position: absolute;
+    width: 122px;
+    height: 24px;
+    left: 70px;
+    top: 1401px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: black;
+}
+
+.footermain img {
+    position: absolute;
+    width: 283px;
+    height: 24px;
+    left: 518px;
+    top: 1401px;
+}
+
+.footermain h6 {
+    position: absolute;
+    width: 70px;
+    height: 16px;
+    left: 1201px;
+    top: 1401px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+
+
+    color: black;
+}
+
+.Header {
+    position: relative;
+    top: 9000px;
+}
