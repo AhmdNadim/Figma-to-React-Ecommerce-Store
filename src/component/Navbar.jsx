@@ -8,6 +8,10 @@ const Navbar = () => {
                     <a class="h1 text-dark fs-4" href="#">
                       CORAL
                     </a>
+                    <a class="h1 text-dark fs-4" href="#">
+                      CORAL
+                    </a>
+                    
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
