@@ -11,11 +11,11 @@ import d  from './../component/brand-5.png';
 const Logo = () => {
   return (
     <div className='logodisplay'>
-        <a href='#'><img src={image}></img></a>
+        <a className='logo1' href='#'><img src={image}></img></a>
         <a href='#'><img src={a}></img></a>
-        <a href='#'><img src={b}></img></a>
-        <a href='#'><img src={c}></img></a>
-        <a href='#'><img src={d}></img></a>
+        <a className='logo1' href='#'><img src={b}></img></a>
+        <a className='logo1' href='#'><img src={c}></img></a>
+        <a className='logo1' href='#'><img src={d}></img></a>
     </div>
   )
 }

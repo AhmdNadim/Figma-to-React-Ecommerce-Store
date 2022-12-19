@@ -1,31 +1,40 @@
-import React from 'react'
-
+import React from 'react';
+import { Route, Routes, Router} from "react-router-dom";
 import './App.css';
-import Navbar from './component/Navbar';
-import Home from './component/Home';
-import Products from './component/Products';
-import Logo from './component/logo';
-import Category from './component/category';
-import Zara from './component/Zara';
-import Seller from './component/Seller';
-import Discount from './component/Discount';
-import Footer from './component/Footer';
-import Footermain from './component/Footermain';
+import HomePage from './pages/home';
+import LoginPage from './pages/login';
+import SignPage from './pages/sign';
+
+
+import {
+  createBrowserRouter,
+  RouterProvider,
+} 
+from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <HomePage/>,
+  },
+  {
+    path: "/login",
+    element: <LoginPage/>,
+  },
+  {
+    path: "/sign",
+    element: <SignPage/>,
+  },
+]);
+
+
 
 function App() {
   return (
     <>
-         <Navbar />
-         <Home />
-         <Logo />
-         <Category />
-         <Products />
-         <Zara />
-         <Seller />
-         <Discount />
-         <Footer />
-         <Footermain />
+    <RouterProvider router={router} />
     </>
+
     
   );
 }

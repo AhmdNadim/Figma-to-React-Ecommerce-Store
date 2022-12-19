@@ -7,6 +7,80 @@
     margin-top: -20px;
     margin-left: -28px;
 }
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: #444;
+    color: #000;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+.buttons .as {
+    background: #000;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.buttons .as:hover {
+    background: #222;
+    color: #fff;
+}
+
+.buttons .btn {
+    background: #000;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.buttons .btn:hover {
+    background: #222;
+    color: #fff;
+}
+
+.icons {
+    display: flex;
+}
 
 .collect h5 {
     position: absolute;
@@ -22,6 +96,7 @@
 .collect p {
     position: absolute;
     top: 253px;
+    width: 515px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 00;
@@ -33,7 +108,13 @@
 
 .collect button {
     position: absolute;
+    display: flex;
+    align-items: flex-end;
     top: 390px;
+    background: #000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
     width: 150px;
 }
 
@@ -44,14 +125,14 @@
     justify-items: center;
 }
 
-.collect {
+/* .collect {
 
     position: absolute;
     width: 515px;
     height: 164px;
     left: 170px;
 
-}
+} */
 
 .img img {
     margin-left: 607px;
@@ -61,10 +142,10 @@
 
 .main .text {
     position: absolute;
-    width: 648px;
-    height: 52px;
-    right: 807px;
-    top: 1155px;
+    width: 548px;
+    height: 12px;
+    right: 877px;
+    top: 1130px;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -87,7 +168,7 @@
 .main1 {
     position: absolute;
     width: 490px;
-    height: 618px;
+    height: 518px;
     left: 167px;
     top: 877px;
 }
@@ -95,7 +176,7 @@
 .main2 {
     position: absolute;
     width: 252px;
-    height: 295px;
+    height: 245px;
     left: 672px;
     top: 877px;
 }
@@ -103,7 +184,7 @@
 .main3 {
     position: absolute;
     width: 252px;
-    height: 295px;
+    height: 245px;
     left: 938px;
     top: 877px;
 }
@@ -111,18 +192,18 @@
 .main4 {
     position: absolute;
     width: 252px;
-    height: 303px;
+    height: 245px;
     left: 672px;
-    top: 1192px;
+    top: 1152px;
 
 }
 
 .main5 {
     position: absolute;
     width: 252px;
-    height: 303px;
+    height: 245px;
     left: 938px;
-    top: 1192px;
+    top: 1152px;
 }
 
 button .a {
@@ -135,7 +216,6 @@ button .a {
     justify-content: center;
     padding: 40px;
 }
-
 .logodisplay img:hover {
     transform: scale(0.9);
     transition: 0.5s;
@@ -200,18 +280,22 @@ button .a {
 
 .contain button {
     position: absolute;
-    width: 135px;
-    font-size: 15px;
-    height: 32px;
+    width: 145px;
+    border-radius: 10px;
+    background: #F1F1F1;
+    color: #000;
+    font-size: 17px;
+    height: 52px;
     left: 1083px;
     top: 4700px;
 }
 
 .seller .link001 {
     position: absolute;
+    list-style: none;
     width: 375px;
     height: 22px;
-    right: 1005px;
+    right: 1055px;
     top: 4170px;
 
 }
@@ -317,15 +401,16 @@ button .a {
     width: 90px;
     font-size: 16px;
     text-align: center;
-    height: 30px;
+    height: 37px;
     left: 1242px;
     top: 778px;
 }
-
+.btb {
+    margin-left: 120px;
+}
 .card01 {
     position: absolute;
     width: 252px;
-    height: 477px;
     left: 130px;
     top: 5040px;
 
@@ -334,7 +419,6 @@ button .a {
 .card02 {
     position: absolute;
     width: 252px;
-    height: 477px;
     left: 400px;
     top: 5040px;
 }
@@ -342,7 +426,6 @@ button .a {
 .card03 {
     position: absolute;
     width: 252px;
-    height: 477px;
     left: 672px;
     top: 5040px;
 }
@@ -350,7 +433,6 @@ button .a {
 .card04 {
     position: absolute;
     width: 252px;
-    height: 477px;
     left: 945px;
     top: 5040px;
 }
@@ -469,10 +551,11 @@ button .a {
 
 .input2 {
     position: absolute;
-    width: 60px;
-    height: 32px;
-    left: 877px;
-    top: 405px;
+    color: #000;
+    width: 80px;
+    height: 42px;
+    left: 897px;
+    top: 395px;
     background: none;
     border: none;
     border-bottom: 3px solid black;
@@ -480,7 +563,7 @@ button .a {
 
 .ft {
     position: relative;
-    background: #F1F1F1;
+    background: #fff;
     top: 1400px;
     display: flex;
     padding: 10px;
@@ -504,6 +587,21 @@ button .a {
     padding: 10px;
 }
 
+.ftmenu img {
+    display: flex;
+
+}
+
+.ftmenu .coral {
+    display: flex;
+}
+
+.ftmenu svg {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .ft .ftmenu ul li {
     text-align: left;
     padding: 10px;
@@ -524,50 +622,554 @@ button .a {
 
 .footermain {
     position: relative;
-    background: #000000;
+    margin-top: 1400px;
+    display: flex;
+    background-color: #000;
 }
 
 .footermain p {
-    position: absolute;
     width: 122px;
     height: 24px;
-    left: 70px;
-    top: 1401px;
+    margin-top: 10px;
+    margin-left: 10px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 24px;
-    color: black;
+    color: #fff;
 }
-
 .footermain img {
-    position: absolute;
     width: 283px;
     height: 24px;
-    left: 518px;
-    top: 1401px;
+    margin-top: 10px;
+    margin-left: 250px;
 }
 
 .footermain h6 {
-    position: absolute;
     width: 70px;
     height: 16px;
-    left: 1201px;
-    top: 1401px;
-
+    margin-top: 13px;
+    margin-left: 550px;
+    color: #fff;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
     line-height: 16px;
     /* identical to box height, or 133% */
-
-
-    color: black;
 }
 
 .Header {
     position: relative;
     top: 9000px;
+}
+
+.buttons .cart {
+    display: none;
+    width: 300px;
+    height: 700px;
+}
+
+.buttons :hover .cart {
+    display: block;
+    margin-top: 600px;
+    position: absolute;
+    border-radius: 20px;
+    background: #fff;
+    color: #444;
+    margin-left: -249px;
+    height: 520px;
+    min-width: 400px;
+    padding: 10px 0;
+}
+
+.cart h3 {
+    margin-top: 10px;
+    margin-left: 20px;
+    border-bottom: 1px solid rgb(80, 74, 74);
+    padding-bottom: 10px;
+
+}
+
+.cart p {
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.cart i {
+    margin-left: 110px;
+    padding-top: 40px;
+}
+
+.cart h6 {
+    margin-left: 40px;
+    margin-top: 60px;
+    font-size: 15px;
+}
+
+.cart button {
+    padding: 10px 38px;
+    background: rgb(114, 114, 243);
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+.cart .prod h6 {
+    margin-top: -35px;
+    margin-left: 290px;
+}
+
+.cart .prod p {
+    margin-left: -250px;
+}
+
+.cart .produ {
+    display: flex;
+}
+
+.cart .produ img {
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 190px;
+    height: 100px;
+}
+
+.cart .produ p {
+    margin-top: 70px;
+    margin-left: 114px;
+}
+
+.cart .produc {
+    display: flex;
+}
+
+.cart .produc img {
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 190px;
+    height: 100px;
+}
+
+.cart .produc p {
+    margin-top: 70px;
+    margin-left: 114px;
+}
+
+button {
+    background-color: #555;
+    width: 100%;
+    color: #000;
+    padding: 15px;
+    margin: 10px 0px;
+    border: none;
+    cursor: pointer;
+}
+
+form {
+    border: 3px solid #F1F1F1;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px 20px;
+    display: inline-block;
+    border: none;
+    border-bottom: 2px solid #222;
+    box-sizing: border-box;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    margin: 10px 5px;
+}
+
+.collapse .bar a {
+    color: #222;
+    margin: 0px 50px;
+    font-size: 20px;
+}
+@media screen and (max-width:420px) {
+    .Body-padding {
+        background-color: #F1F1F1;
+        height: 600px;
+        width: 401px;
+    }
+    .navbar {
+        width: 374px;
+    }
+
+    .collect h5 {
+        top: 250px;
+        left: 40px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 44px;
+        line-height: 55px;
+        color: #000000;
+    }
+
+    .collect p {
+        display: none;
+    }
+    .collect button {
+        position: absolute;
+        top: 370px;
+        font-size: 15px;
+        left: 88px;
+        background: #000;
+        color: white;
+        padding: 10px 10px;
+        border-radius: 20px;
+        width: 100px;
+    }
+    .collect svg {
+        display: none;
+    }
+
+    .img img {
+        display: none;
+    }
+
+    .main .text {
+        display: none;
+    }
+    .btn {
+        display: none;
+    }
+    .main1 {
+        position: absolute;
+        width: 360px;
+        height: 418px;
+        left: 7px;
+        top: 877px;
+    }
+
+    .main2 {
+        display: none;
+    }
+
+    .main3 {
+        display: none;
+    }
+
+    .main4 {
+        display: none;
+
+    }
+    .main5 {
+        display: none;
+    }
+
+    button .a {
+        margin-left: 300px;
+    }
+
+    .logodisplay {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+        margin-left: 20px;
+    }
+
+    .logodisplay .logo1 {
+    display: none;
+    }
+
+
+    .logodisplay img:hover {
+        transform: scale(0.9);
+        transition: 0.5s;
+    }
+
+    .main {
+        margin-top: 700px;
+    }
+
+    .zara {
+        position: absolute;
+        width: 377px;
+        height: 641px;
+        top: 10900px;
+    }
+
+    .zara1 {
+        display: none;
+
+    }
+
+    .contain {
+        display: none
+    }
+
+    .contain h2 {
+        display: none;
+    }
+
+    .contain p {
+        display: none;
+    }
+
+    .contain button {
+        display: none;
+    }
+
+    .seller .link001 {
+        display: none;
+    }
+
+    .seller p {
+        position: absolute;
+        width: 332px;
+        height: 53px;
+        left: 4px;
+        top: 11605px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 53px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: capitalize;
+
+        color: #000000;
+
+    }
+
+    .link01 {
+        display: none;
+    }
+
+    .link02 {
+        display: none;
+    }
+
+    .link03 {
+        display: none;
+
+    }
+
+    .link04 {
+        display: none;
+    }
+
+    .seller .btn1 {
+        display: none;
+    }
+
+    .card01 {
+        position: absolute;
+        width: 332px;
+        height: 297px;
+        left: 20px;
+        top: 11700px;
+
+    }
+
+    .card02 {
+        display: none;
+    }
+
+    .card03 {
+        display: none;
+    }
+
+    .card04 {
+        position: absolute;
+        width: 332px;
+        height: 297px;
+        left: 20px;
+        top: 12040px;
+    }
+
+    .discount p {
+        display: none;
+    }
+
+    .discount {
+        position: relative;
+        top: 1650px;
+        background-color: #F1F1F1;
+        width: 379px;
+        height: 500px;
+    }
+
+    .discount1 {
+        position: absolute;
+        width: 160px;
+        height: 160px;
+        left: 112px;
+        top: 59px;
+    }
+
+    .discount2 {
+        display: none;
+
+    }
+
+    .discount3 {
+        display: none;
+    }
+
+    .sbb {
+        margin: 1000px;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .discount4 {
+        display: none;
+    }
+
+    .discount5 {
+        display: none;
+    }
+
+    .discount6 {
+        display: none;
+    }
+
+    .discount h6 {
+        display: none;
+    }
+
+    .discount .input1 {
+        position: absolute;
+        width: 300px;
+        height: 32px;
+        font-size: 20px;
+        left: 55px;
+        top: 305px;
+        color: #fff;
+        background: none;
+        border-radius: 10px;
+        border: none;
+        border-bottom: 3px solid black;
+    }
+
+    .input2 {
+        position: absolute;
+        width: 100px;
+        font-size: 20px;
+        height: 42px;
+        left: 157px;
+        top: 385px;
+        color: #555;
+        background: none;
+        border-radius: 10px;
+        border: none;
+        border-bottom: 3px solid black;
+    }
+    .btns {
+        display: none;
+    }
+
+    .ftmenu svg {
+        color: red;
+    }
+
+    .ft .ftmenu ul li {
+        text-align: left;
+        padding: 2px;
+        list-style: none;
+        color: rgb(12, 7, 1);
+
+    }
+
+    .ft .ftmenu ul li a {
+        display: none;
+
+    }
+
+    .ft .ftmenu ul li a:hover {
+        color: #222;
+    }
+
+    .ft {
+        margin-top: 250px;
+        /* width: 750px; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ft .ftmenu h1 {
+        color: #000;
+        font-size: 40px;
+        margin-right: 20px;
+    }
+
+    .ft .ftmenu ul li {
+        display: row;
+        font-size: 15px;
+        margin-left: 50px;
+    }
+
+    .para {
+        display: none;
+    }
+
+    .footermain {
+        position: relative;
+        margin-top: 1400px;
+        display: flex;
+        width: 374px;
+        height: 90px;
+        background-color: #000;
+    }
+
+    .footermain p {
+        display: none;
+    }
+
+    .footermain img {
+        width: 243px;
+        height: 44px;
+        margin-top: 26px;
+        margin-left: 50px;
+    }
+
+    .footermain h6 {
+        display: none;
+    }
+
+    button {
+        display: none;
+    }
+
+    form {
+        display: none;
+    }
+
+    input[type=text],
+    input[type=password] {
+        display: none;
+    }
+
+    button:hover {
+        display: none;
+    }
+
+    .cancelbtn {
+        display: none;
+    }
+
+    .collapse .bar a {
+        display: none;
+    }
 }

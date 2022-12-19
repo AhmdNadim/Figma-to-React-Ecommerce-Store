@@ -8,7 +8,7 @@ import d  from '../component/image-category-5.png';
 const Category = () => {
   return (
     <div className='main'>
-        <p className='text'>Explore new and popular styles</p>
+        <p className='text'>Explore new and popular</p>
         <img className='main1' src={image}></img>
         <img className='main2' src={a}></img>
         <img className='main3' src={b}></img>

@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect} from 'react';
 import Skeleton from 'react-loading-skeleton';
-// import image from './../component/image-product.png';
+
 
 
 const Products = () => {
@@ -52,27 +52,29 @@ const Products = () => {
     const ShowProducts = () => {
         return (
             <>
-                <div className='buttons d-flex justify-content-center mb-5 pb-5'>
-                    <button className='btn  me-2 m-5'
+                <div className='d-none d-lg-block'>
+                <div className='buttons btb btns d-flex justify-content-center cla'>
+                    <button className='btn me-2 m-5'
                     onClick={() =>setFilter(data)}
                     >All</button>
                     <button className='btn me-2 m-5'
-                    onClick={() =>filterProduct("men's clothing")}
-                    >Men's Clothing</button>
+                    onClick={() =>filterProduct("men's")}
+                    >Men's</button>
                     <button className='btn  me-2 m-5'
-                    onClick={() =>filterProduct("women's clothing")}
-                    >Women's Clothing</button>
+                    onClick={() =>filterProduct("women's")}
+                    >Women's</button>
                     <button className='btn  me-2 m-5'
                     onClick={() =>filterProduct("jewelery")}
                     >Jewelery</button>
                     <button className='btn  me-2 m-5' 
                     onClick={() =>filterProduct("electronics")}
                     >Electronic</button>
+                    </div>
                 </div>
                 {filter.map((product) => {
                     return (
                         <>
-                            <div className='col-md-3 mb-4'>
+                        <div className='col-md-3 mb-4 cl'>
                                 <div class="card h-100 text-center p-4" key={product}>
                                     <img src={product.image} class="card-img-top" alt={product.title} height="250px" />
                                     <div class="card-body">
@@ -94,14 +96,13 @@ const Products = () => {
     }
 
     return (
-        <div className='container my-5  py-5'>
+        <div className='sbb container my-5  py-5'>
             <div className='row'>
                 <div className='col-12 mb-5'>
                     <h1 className='display-6 fw-bolder  text-center'>New Products</h1>
                 </div>
-                <hr />
             </div>
-            <div className='row justify-content-center'>
+            <div className='m-0 row justify-content-right'>
                 {loading ? <Loading /> : <ShowProducts />}
             </div>
         </div>
