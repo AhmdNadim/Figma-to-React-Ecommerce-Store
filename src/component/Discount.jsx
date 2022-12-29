@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import b from './../component/discount1.png';
 import c from './../component/discount2.png';
 import d from './../component/discount3.png';
@@ -18,7 +19,11 @@ const Discount = () => {
         <img className='discount6' src={g}></img>
         <h6>Or subscribe to the newsletter</h6>
         <input className='input1' type="email" placeholder='Email Address...' id="email" name="email"></input>
-        <button className='input2'>Submit</button>
+        <NavLink to='/state'>
+           <button className='input2'>
+              Submit
+           </button>
+        </NavLink>
     </div>
   )
 }

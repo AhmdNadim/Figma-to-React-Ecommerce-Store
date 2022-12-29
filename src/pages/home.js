@@ -14,7 +14,7 @@ function Home() {
   return (
     <>
     <Navbar />
-         <HomeComponent />         
+         <HomeComponent />   
          <Logo />
          <Category />
          <Products />
@@ -23,6 +23,7 @@ function Home() {
          <Discount />
          <Footer />
          <Footermain />
+
     </>
   )
 }
